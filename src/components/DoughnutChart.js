@@ -69,7 +69,7 @@ fetchEvents()
         headTitle="Bar Chart | Data Visualization"
         title="국내 누적 확진, 격리해제, 사망자"
         subTitle=""
-        chartType="Line Chart"
+        chartType="Doughnut Chart"
        >
           <Wrapper>
             <BarWrapper>
