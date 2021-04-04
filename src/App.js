@@ -1,13 +1,23 @@
-import Header from './components/Header'
-import Contents from './components/Contents'
+
 import './App.css';
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
+import Home from 'components/Home'
+import BarChart from 'components/BarChart'
+import LineChart from 'components/LineChart'
+import DoughnutChart from 'components/DoughnutChart'
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Contents />
-    </div>
+    <>
+
+    <Switch>
+      <Route exact path = "/" component={Home} />
+      <Route path="/barChart" component={BarChart} />
+      <Route path="/lineChart" component={LineChart} />
+      <Route path="/doughnutChart" component={DoughnutChart} />
+     
+    </Switch>
+    </>
   );
 }
 

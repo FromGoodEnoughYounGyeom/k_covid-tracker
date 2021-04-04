@@ -1,70 +1,94 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# k_covid-tracker
 
-## Available Scripts
+-   코로나 현황 API Data를 활용하여 각 데이터에 맞는 차트를 이용해 받아온 데이터를 시각화한다.
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li><a href="#reason">프로젝트 목적</a></li>
+    <li><a href="#use-tech">Use tech</a></li>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li><a href="#structure">구조 및 구현내용</a></li>
+    <li><a href="#new">알게된 것</a></li>
+    <li><a href="#reference">Reference</a></li>
+  </ol>
+</details>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<div id="reason"/>
 
-### `yarn test`
+## 프로젝트 목적
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   React hooks의 숙련도 향상
+-   api data 재가공 
+-   react-chartjs-2 학습
 
-### `yarn build`
+<!--USE TECH-->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Use tech
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<span id="use-tech">
+ 
+ <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black" alt="React"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black" alt="JavaScript"/> 
+ <img src="https://img.shields.io/badge/HTML5-E34c26?style=for-the-badge&logo=HTML5&logoColor=white" alt="HTML5"/> 
+<img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=HTML5&logoColor=white" alt="CSS3"/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</span>
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br/>
+<br/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## About The Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Demo link]()
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<br/>
+<br/>
 
-## Learn More
+### 초기화면
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+-   누적 확진자 동향 bar 
+-   월별 격리자 추이 Line
+-   누적 확진,해제,사망 현황 Doughnut 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 주요기술
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 주요
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### 기능
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 알게된 것
+
+-   useEffect 
+-   API Data 재가공 
+-   데이터에 맞는 차트 적용법 
+
+---
+
+## Reference
+
+Reference Link : </br>
+[Chart.js](https://www.chartjs.org/) </br>
+[code Scalper](https://www.youtube.com/watch?v=DtLhiMxgsm0&t=20s) </br>
+[create react](https://create-react-app.dev)</br>
