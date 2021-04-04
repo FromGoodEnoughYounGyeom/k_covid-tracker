@@ -49,7 +49,7 @@
 
 ## About The Project
 
-[Demo link]()
+[Demo link](https://k-data-visualization.netlify.app/)
 
 <br/>
 <br/>

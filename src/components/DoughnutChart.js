@@ -67,8 +67,8 @@ fetchEvents()
          
         <Layout
         headTitle="Bar Chart | Data Visualization"
-        title="국내 누적 확진자"
-        subTitle="국내 누적 확진자 월별 추이"
+        title="국내 누적 확진, 격리해제, 사망자"
+        subTitle=""
         chartType="Line Chart"
        >
           <Wrapper>

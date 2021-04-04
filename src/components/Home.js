@@ -49,7 +49,7 @@ function Home() {
         <Layout headTitle="Data Visualization">
             <Wrapper>
                 <Title>
-                Data Visualization
+                South korea Covid-19 Data Visualization
                 </Title>
                 <CardsWrapper>
                 {cards.map((card, i) => (
