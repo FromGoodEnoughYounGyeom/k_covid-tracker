@@ -38,7 +38,6 @@
  
  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black" alt="React"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black" alt="JavaScript"/> 
  <img src="https://img.shields.io/badge/HTML5-E34c26?style=for-the-badge&logo=HTML5&logoColor=white" alt="HTML5"/> 
-<img src="https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=HTML5&logoColor=white" alt="CSS3"/>
 
 </span>
 
@@ -57,30 +56,26 @@
 ### 초기화면
 
 ---
+<img width="%" alt="img" src="https://user-images.githubusercontent.com/68359858/113527892-eec1b680-95f9-11eb-9df6-60a6048a7e77.png">
 
 
--   누적 확진자 동향 bar 
--   월별 격리자 추이 Line
--   누적 확진,해제,사망 현황 Doughnut 
 
+-   누적 확진자 현황 bar chart 
+-   월별 격리자 현황 Line chart
+-   누적 확진, 격리해제, 사망 현황 Doughnut chart
 
 
 ## 주요기술
 
-
-### 주요
-
-
----
-
-### 기능
-
-
+- React.js
+- hooks
+- chart.js
+- styled-components
 
 
 ## 알게된 것
 
--   useEffect 
+-   useState, useEffect 학습 
 -   API Data 재가공 
 -   데이터에 맞는 차트 적용법 
 
